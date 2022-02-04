@@ -22,6 +22,7 @@
 		35C336B327AD86C90099F2E6 /* VehicleListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C336B227AD86C90099F2E6 /* VehicleListResult.swift */; };
 		35C336B527AD86D80099F2E6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C336B427AD86D80099F2E6 /* APIManager.swift */; };
 		35C336B727AD86F10099F2E6 /* SwapiAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C336B627AD86F10099F2E6 /* SwapiAPIManager.swift */; };
+		35C336B927AD96BC0099F2E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 35C336B827AD96BC0099F2E6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		35C336B227AD86C90099F2E6 /* VehicleListResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListResult.swift; sourceTree = "<group>"; };
 		35C336B427AD86D80099F2E6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		35C336B627AD86F10099F2E6 /* SwapiAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapiAPIManager.swift; sourceTree = "<group>"; };
+		35C336B827AD96BC0099F2E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		35C3366C27AD81F10099F2E6 = {
 			isa = PBXGroup;
 			children = (
+				35C336B827AD96BC0099F2E6 /* README.md */,
 				35C3367727AD81F10099F2E6 /* swapi-uikit */,
 				35C3368E27AD81F30099F2E6 /* swapi-uikitTests */,
 				35C3369827AD81F30099F2E6 /* swapi-uikitUITests */,
@@ -283,6 +286,7 @@
 			files = (
 				35C3368527AD81F30099F2E6 /* LaunchScreen.storyboard in Resources */,
 				35C3368227AD81F30099F2E6 /* Assets.xcassets in Resources */,
+				35C336B927AD96BC0099F2E6 /* README.md in Resources */,
 				35C3368027AD81F10099F2E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
