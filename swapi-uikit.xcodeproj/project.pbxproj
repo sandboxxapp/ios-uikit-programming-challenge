@@ -16,6 +16,12 @@
 		35C3369027AD81F30099F2E6 /* swapi_uikitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3368F27AD81F30099F2E6 /* swapi_uikitTests.swift */; };
 		35C3369A27AD81F30099F2E6 /* swapi_uikitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3369927AD81F30099F2E6 /* swapi_uikitUITests.swift */; };
 		35C3369C27AD81F30099F2E6 /* swapi_uikitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3369B27AD81F30099F2E6 /* swapi_uikitUITestsLaunchTests.swift */; };
+		35C336AD27AD86520099F2E6 /* NetworkErrorCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C336AC27AD86520099F2E6 /* NetworkErrorCallback.swift */; };
+		35C336AF27AD866C0099F2E6 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C336AE27AD866C0099F2E6 /* NetworkClient.swift */; };
+		35C336B127AD86AE0099F2E6 /* VehicleJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C336B027AD86AE0099F2E6 /* VehicleJson.swift */; };
+		35C336B327AD86C90099F2E6 /* VehicleListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C336B227AD86C90099F2E6 /* VehicleListResult.swift */; };
+		35C336B527AD86D80099F2E6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C336B427AD86D80099F2E6 /* APIManager.swift */; };
+		35C336B727AD86F10099F2E6 /* SwapiAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C336B627AD86F10099F2E6 /* SwapiAPIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		35C3369527AD81F30099F2E6 /* swapi-uikitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swapi-uikitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C3369927AD81F30099F2E6 /* swapi_uikitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapi_uikitUITests.swift; sourceTree = "<group>"; };
 		35C3369B27AD81F30099F2E6 /* swapi_uikitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapi_uikitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35C336AC27AD86520099F2E6 /* NetworkErrorCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorCallback.swift; sourceTree = "<group>"; };
+		35C336AE27AD866C0099F2E6 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		35C336B027AD86AE0099F2E6 /* VehicleJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleJson.swift; sourceTree = "<group>"; };
+		35C336B227AD86C90099F2E6 /* VehicleListResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListResult.swift; sourceTree = "<group>"; };
+		35C336B427AD86D80099F2E6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		35C336B627AD86F10099F2E6 /* SwapiAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapiAPIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 		35C3367727AD81F10099F2E6 /* swapi-uikit */ = {
 			isa = PBXGroup;
 			children = (
+				35C336A827AD861D0099F2E6 /* Data */,
 				35C3367827AD81F10099F2E6 /* AppDelegate.swift */,
 				35C3367A27AD81F10099F2E6 /* SceneDelegate.swift */,
 				35C3367C27AD81F10099F2E6 /* ViewController.swift */,
@@ -125,6 +138,43 @@
 				35C3369B27AD81F30099F2E6 /* swapi_uikitUITestsLaunchTests.swift */,
 			);
 			path = "swapi-uikitUITests";
+			sourceTree = "<group>";
+		};
+		35C336A827AD861D0099F2E6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				35C336AB27AD86400099F2E6 /* API */,
+				35C336AA27AD86330099F2E6 /* JSON */,
+				35C336A927AD86280099F2E6 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		35C336A927AD86280099F2E6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				35C336AE27AD866C0099F2E6 /* NetworkClient.swift */,
+				35C336AC27AD86520099F2E6 /* NetworkErrorCallback.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		35C336AA27AD86330099F2E6 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				35C336B027AD86AE0099F2E6 /* VehicleJson.swift */,
+				35C336B227AD86C90099F2E6 /* VehicleListResult.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		35C336AB27AD86400099F2E6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				35C336B427AD86D80099F2E6 /* APIManager.swift */,
+				35C336B627AD86F10099F2E6 /* SwapiAPIManager.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35C336B527AD86D80099F2E6 /* APIManager.swift in Sources */,
 				35C3367D27AD81F10099F2E6 /* ViewController.swift in Sources */,
+				35C336AF27AD866C0099F2E6 /* NetworkClient.swift in Sources */,
+				35C336B127AD86AE0099F2E6 /* VehicleJson.swift in Sources */,
 				35C3367927AD81F10099F2E6 /* AppDelegate.swift in Sources */,
+				35C336B727AD86F10099F2E6 /* SwapiAPIManager.swift in Sources */,
+				35C336AD27AD86520099F2E6 /* NetworkErrorCallback.swift in Sources */,
 				35C3367B27AD81F10099F2E6 /* SceneDelegate.swift in Sources */,
+				35C336B327AD86C90099F2E6 /* VehicleListResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
