@@ -14,6 +14,9 @@ class TableViewCell: UITableViewCell {
   @IBOutlet weak var cargoCapacity: UILabel!
   
   func set(vehicle: VehicleJson) {
-    
+    transportTypeIcon.image = UIImage.vehicle
+    transportName.text = vehicle.name
+    transportModel.text = vehicle.model
+    cargoCapacity.text = vehicle.cargoCapacity
   }
 }
