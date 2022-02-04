@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "noun-space-x-mars-4249496-212121.svg",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "noun-space-x-mars-4249496-EFEFEF.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
