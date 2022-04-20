@@ -32,7 +32,7 @@ Inform us how we could make our code more testable.
 Breif expectations:
 * Architecture
 * Testability
-* Optimization and Resuability
+* Optimization and Reusability
 
 ## Starting Point
 
